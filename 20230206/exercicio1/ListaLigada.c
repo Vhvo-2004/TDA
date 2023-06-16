@@ -8,7 +8,7 @@ void inicializarLista(LISTA* l) {
         l->A[i].prox = i + 1;
     }
     l->A[MAX - 1].prox = -1;
-    l->inicio = 4;
+    l->inicio = -1;
     l->dispo = 0;
 }
 
